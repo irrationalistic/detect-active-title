@@ -1,0 +1,9 @@
+{
+  "name": "detect-active-title",
+  "version": "1.0.0",
+  "description": "Get the title of the active window on the OS",
+  "author": "Chris Rolfs",
+  "repository": {
+    "url": "https://github.com/irrationalistic/detect-active-title"
+  },
+}
