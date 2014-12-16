@@ -1,6 +1,6 @@
 {
   "name": "detect-active-title",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the title of the active window on the OS",
   "author": "Chris Rolfs",
   "repository": {
