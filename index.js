@@ -3,8 +3,13 @@ switch(process.platform){
     module.exports = require('./platforms/osx');
     break;
   default:
-    module.exports = function(rexp, cb){
-      cb('Platform not supported');
+    module.exports = {
+      getTitle: function(cb){
+        cb('Platform not supported');
+      },
+      matchTitle: function(rexp, cb){
+        cb('Platform not supported');
+      }
     };
     break;
 }
